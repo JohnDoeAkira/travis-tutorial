@@ -17,6 +17,6 @@ def test_partition():
     array_part = numpy.partition(array_test, k_ind)
     
     for v in array_part[:k_ind]:
-        assert v < array_test[k_ind]
+        assert v <= array_test[k_ind]
         
        
