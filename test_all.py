@@ -3,3 +3,6 @@ def test_addition():
     
 def test_True():
     assert 1 == 1
+    
+def test_division():
+    assert 3/2 == 1.5
