@@ -2,8 +2,6 @@ language: python
 
 dist: trusty
 
-script: py.test
-
 python:
   - 2.7
 
@@ -12,3 +10,5 @@ env:
   - NUMPY_VERSION=1.12.1
 
 install: pip install numpy==$NUMPY_VERSION
+
+script: py.test
