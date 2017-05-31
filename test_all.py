@@ -9,8 +9,8 @@ def test_True():
     
 def test_division():
     print(numpy.__version__)
-    assert 3/2 == 1.5
-  
+    assert 3/2 == 1
+    
 def test_partition():
     array_test = numpy.random.randint(20, size=10)
     k_ind = 5
